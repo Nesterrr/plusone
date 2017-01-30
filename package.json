@@ -1,0 +1,24 @@
+{
+  "name": "plusone",
+  "version": "1.0.0",
+  "description": "no description",
+  "main": "main.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "node ./tests/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "no-git"
+  },
+  "author": "I am;)",
+  "license": "MIT",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "mocha": "3.2.0",
+    "chai": "3.5.0"
+  }
+}

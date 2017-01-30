@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>plus_one</title>
+</head>
+<body>
+	<header class="main-header">
+		<h1>Junkyard</h1>
+		<nav class="main-nav">
+			<ul>
+				<li class="login-singUp">Вход</li>
+			</ul>
+		</nav>
+		<section class="main-search">
+			<form action="" class="complex-filter">
+				<label for="">
+					Товар
+					<input type="text">
+				</label>
+				<label for="">
+					Цена
+					<input type="text">
+				</label>
+				<label for="">
+					Категория
+					<input type="text">
+				</label>
+				<label for="">
+					Город
+					<input type="text">
+				</label>
+				<button class="search-btn"></button>
+			</form>
+		</section>
+	</header>
+
+	<main class="main-content items-container">
+		
+	</main>
+
+	<footer class="main-footer">
+		
+	</footer>
+
+	<template id="item-template">
+		<!-- item template -->
+		<h2 class="item-name"></h2>
+		<span class="item-price"></span>
+		<img src="" alt="" class="item-main-img">
+		<span class="item-phone"></span>
+		<p class="item-describe"></p>
+		<a href="" class="adress"></a>
+		<span class="seller-name"></span>
+		<!--> JSON: 
+			[
+				{
+					"itemId": <class === title-info-metadata-item>,
+					"itemName": <class === title-info-title-text>,
+					"itemPrice": <class === price-value-string>, 
+					"itemImgs": <class === gallery-img-frame js-gallery-img-frame>,
+					"seller": {
+						"name": <class === seller-info-name>,
+						"adress": <class === seller-info-value>,
+						"phone": <phone>
+					}
+					"itemDescribe": <class === item-description-text>,
+					"itemAvitoURL": <URL>
+				}, ...
+			]
+		</!-->
+	</template>
+	<template id="item-context-tamplate">
+		
+	</template>
+</body>
+</html>

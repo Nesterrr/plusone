@@ -1,0 +1,54 @@
+[
+	{
+		"itemId": "01",
+		"itemName": "Nails",
+		"itemPrice": "100р", 
+		"itemImgs": "../img/01.jpg",
+		"seller": {
+			"name": "Vova",
+			"adress": "Kremlin",
+			"phone": "8 911-123-45-67" 
+		},
+		"itemDescribe": "Junk from the bottom of my soul",
+		"itemAvitoURL": "avito.ru"
+	},
+	{
+		"itemId": "02",
+		"itemName": "shiet",
+		"itemPrice": "200", 
+		"itemImgs": "../img/02.jpg",
+		"seller": {
+			"name": "Superbad",
+			"adress": "funky town",
+			"phone": "8 911-123-45-67"
+		},
+		"itemDescribe": "funky mf stuff",
+		"itemAvitoURL": "avito.ru"
+	},
+	{
+		"itemId": "03",
+		"itemName": "Legendary foundation",
+		"itemPrice": "100 rubles", 
+		"itemImgs": "../img/03.jpg",
+		"seller": {
+			"name": "Yuri",
+			"adress": "mexico",
+			"phone": "8 911-123-45-67"
+		},
+		"itemDescribe": "ta-ta",
+		"itemAvitoURL": "avito.ru"
+	},
+	{
+		"itemId": "04",
+		"itemName": "i am fourth",
+		"itemPrice": "100vh", 
+		"itemImgs": "../img/04.jpg",
+		"seller": {
+			"name": "Jason",
+			"adress": "Jason",
+			"phone": "mobaphone suka!"
+		},
+		"itemDescribe": "burzum",
+		"itemAvitoURL": "avito.ru"
+	}
+]
